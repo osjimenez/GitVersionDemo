@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
   <metadata>
     <id>GitVersioningTest</id>
-    <version>1.1.0</version>
+    <version>0.0.0</version>
     <title>Git versioning test</title>
     <authors>Oscar Jimenez</authors>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
