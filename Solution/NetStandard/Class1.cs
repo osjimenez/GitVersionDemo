@@ -7,5 +7,6 @@ namespace NetStandard
         public int Entero { get; set; }
         public string Cadena { get; set; }
         public int MyProperty { get; set; }
+        public int Mas { get; set; }
     }
 }
