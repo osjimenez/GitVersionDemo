@@ -2,7 +2,7 @@
 assembly-versioning-scheme: MajorMinorPatch
 assembly-file-versioning-scheme: MajorMinorPatchTag
 #assembly-informational-format: '{FullInformationalVersion}'
-assembly-informational-format: '{MajorMinorPatchTag}-{PreReleaseTag}+SHA-{Sha}'
+assembly-informational-format: '{MajorMinorPatch}-{PreReleaseTag}+SHA-{Sha}'
 #assembly-informational-override: FullSemVer
 mode: ContinuousDelivery
 increment: Inherit
