@@ -10,5 +10,6 @@ namespace NetStandard
         public int Mas { get; set; }
         public int FeaTwo { get; set; }
         // Rel One
+        // Minor
     }
 }
