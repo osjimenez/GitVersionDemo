@@ -4,5 +4,6 @@ namespace NetStandard
 {
     public class Class1
     {
+        public int Entero { get; set; }
     }
 }
