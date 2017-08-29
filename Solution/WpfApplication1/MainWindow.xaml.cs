@@ -23,6 +23,7 @@ namespace WpfApplication1
         public MainWindow()
         {
             InitializeComponent();
+            // v1.0.0.0
         }
     }
 }
