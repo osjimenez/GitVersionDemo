@@ -1,9 +1,9 @@
 next-version: 0.0.1
 assembly-versioning-scheme: MajorMinorPatch
 assembly-file-versioning-scheme: MajorMinorPatchTag
-#assembly-informational-format: '{InformationalVersion}'
+assembly-informational-format: '{FullInformationalVersion}'
 #assembly-informational-format: '{majorMinorPatch}-{PreReleaseTag}+SHA-{Sha}'
-assembly-informational-override: FullSemVer
+#assembly-informational-override: FullSemVer
 mode: ContinuousDelivery
 increment: Inherit
 continuous-delivery-fallback-tag: ci
