@@ -55,7 +55,7 @@ branches:
     is-release-branch: false
   hotfix:
     regex: hotfix(es)?[/-]
-    mode: ContinuousDelivery
+    mode: ContinuousDeployment
     tag: rc
     increment: Patch
     prevent-increment-of-merged-branch-version: false
