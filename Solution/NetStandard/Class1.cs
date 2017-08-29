@@ -9,6 +9,6 @@ namespace NetStandard
         public int MyProperty { get; set; }
         public int Mas { get; set; }
         public int FeaOne { get; set; }
-        // Second
+        // Second, Thirth
     }
 }
