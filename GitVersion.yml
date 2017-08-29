@@ -9,7 +9,8 @@ increment: Inherit
 continuous-delivery-fallback-tag: ci
 tag-prefix: '[vV]'
 major-version-bump-message: '\+semver:\s?(breaking|major)'
-minor-version-bump-message: '\+semver:\s?(feature|minor)'
+#minor-version-bump-message: '\+semver:\s?(feature|minor)'
+minor-version-bump-message: '\+\+minor'
 patch-version-bump-message: '\+semver:\s?(fix|patch)'
 no-bump-message: '\+semver:\s?(none|skip)'
 legacy-semver-padding: 4
