@@ -2,7 +2,7 @@ next-version: 0.0.1
 assembly-versioning-scheme: MajorMinorPatch
 assembly-file-versioning-scheme: MajorMinorPatchTag
 #assembly-informational-format: '{InformationalVersion}'
-assembly-informational-format: '{majorMinorPatch}-{PreReleaseTag}.{CommitsSinceTag}.{shaShort}'
+assembly-informational-format: '{majorMinorPatch}-{PreReleaseTag}+SHA-{shaShort}'
 mode: ContinuousDelivery
 increment: Inherit
 continuous-delivery-fallback-tag: ci
