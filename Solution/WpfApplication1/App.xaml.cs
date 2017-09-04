@@ -5,7 +5,7 @@ using System.Data;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows;
-using NetStandard20;
+using NetStandard16;
 using System.Diagnostics;
 
 namespace WpfApplication1

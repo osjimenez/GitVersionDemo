@@ -100,10 +100,9 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\NetStandard20\NetStandard20.csproj">
-      <Project>{27aa47fd-676e-41d6-9544-5e3ddbc9883e}</Project>
-      <Name>NetStandard20</Name>
-    </ProjectReference>
+    <PackageReference Include="GitVersionNetStandard16">
+      <Version>3.0.9-beta.13</Version>
+    </PackageReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
