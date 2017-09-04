@@ -1,9 +1,15 @@
-﻿using System;
+﻿using Newtonsoft.Json;
+using System;
 
 namespace NetStandard
 {
     public class Class1
     {
+        public Class1()
+        {
+            var res = JsonConvert.SerializeObject("");
+        }
+
         public int Entero { get; set; }
         public string Cadena { get; set; }
         public int MyProperty { get; set; }
@@ -13,6 +19,6 @@ namespace NetStandard
         // Second, Thirth
         public int FeaTwo { get; set; }
         // Rel One
-        // Minor.................
+        // Minor..................
     }
 }
