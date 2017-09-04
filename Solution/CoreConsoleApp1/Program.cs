@@ -1,5 +1,5 @@
 ﻿using System;
-
+using NetStandard20;
 namespace CoreConsoleApp1
 {
     class Program
@@ -8,6 +8,8 @@ namespace CoreConsoleApp1
         {
             Console.WriteLine("Hello World!");
             Class1 c1 = new Class1();
+
+            Console.ReadLine();
         }
     }
 }
