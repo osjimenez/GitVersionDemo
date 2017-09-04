@@ -5,7 +5,7 @@
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
-    <OutputPath>..\.build\NuGet\NetStandard16\lib\netstandard1.6\</OutputPath>
+    <OutputPath>..\.build\NuGet\NetStandard16\lib\</OutputPath>
   </PropertyGroup>
 
 </Project>
