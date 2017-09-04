@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
   <metadata>
-    <version>{version}</version>
+    <version>0.0.0.1</version>
     <authors>GitVersionNetStandard20</authors>
     <owners>GitVersionNetStandard20</owners>
     <id>GitVersionNetStandard20</id>
@@ -9,7 +9,7 @@
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>GitVersionNetStandard20</description>
     <summary>GitVersionNetStandard20</summary>
-    <copyright>GitVersionNetStandard20 2017 - {year}</copyright>
+    <copyright>GitVersionNetStandard20 2017</copyright>
     <language>en-US</language>
     <dependencies>
       <group targetFramework=".NETFramework4.6.1" />
