@@ -39,7 +39,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="NetStandard">
-      <HintPath>..\packages\GitVersioningTest2.3.0.9-beta.7\lib\netstandard2.0\NetStandard.dll</HintPath>
+      <HintPath>..\packages\GitVersioningTest2.3.0.9-beta.9\lib\netstandard2.0\NetStandard.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="System" />
