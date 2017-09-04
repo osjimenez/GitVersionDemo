@@ -12,4 +12,7 @@
     <projectUrl>https://github.com/osjimenez/Fuxion</projectUrl>
     <licenseUrl>https://raw.githubusercontent.com/osjimenez/Fuxion/develop/LICENSE</licenseUrl>
   </metadata>
+  <files>
+    <file src="bin\Release\netstandard2.0\NetStandard.dll" target="lib\netstandard2.0\NetStandard.dll" />
+  </files>
 </package>
