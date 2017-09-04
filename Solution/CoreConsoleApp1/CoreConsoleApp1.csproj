@@ -6,7 +6,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="GitVersioningTest2" Version="3.0.9-beta.3" />
+    <PackageReference Include="GitVersioningTest2" Version="3.0.9-beta.7" />
   </ItemGroup>
 
 </Project>

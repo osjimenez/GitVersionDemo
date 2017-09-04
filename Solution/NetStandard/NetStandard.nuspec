@@ -11,6 +11,10 @@
     <iconUrl>https://raw.githubusercontent.com/osjimenez/Fuxion/develop/res/logo/fuxion.png</iconUrl>
     <projectUrl>https://github.com/osjimenez/Fuxion</projectUrl>
     <licenseUrl>https://raw.githubusercontent.com/osjimenez/Fuxion/develop/LICENSE</licenseUrl>
+    <dependencies>
+      <group targetFramework=".NETFramework4.7" />
+      <group targetFramework=".NETStandard20"/>
+    </dependencies>
   </metadata>
   <files>
     <file src="bin\Release\netstandard2.0\NetStandard.dll" target="lib\netstandard2.0\NetStandard.dll" />
