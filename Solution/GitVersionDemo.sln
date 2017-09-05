@@ -7,9 +7,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfApplication1", "WpfAppli
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CoreConsoleApp1", "CoreConsoleApp1\CoreConsoleApp1.csproj", "{0DDD25C5-FE27-4F7E-9870-693EAA7C207A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetStandard16", "NetStandard16\NetStandard16.csproj", "{EC5D9A3E-CCBA-4816-9D90-D72AC022213D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetStandard16", "NetStandard16\NetStandard16.csproj", "{EC5D9A3E-CCBA-4816-9D90-D72AC022213D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetStandard20", "NetStandard20\NetStandard20.csproj", "{27AA47FD-676E-41D6-9544-5E3DDBC9883E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetStandard20", "NetStandard20\NetStandard20.csproj", "{27AA47FD-676E-41D6-9544-5E3DDBC9883E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfApp1", "WpfApp1\WpfApp1.csproj", "{80BBAC9A-7859-4021-96FF-744CCB796E90}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestProject1", "UnitTestProject1\UnitTestProject1.csproj", "{0F6EF915-4C5A-42AB-A02F-33E12C37C7E9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +37,14 @@ Global
 		{27AA47FD-676E-41D6-9544-5E3DDBC9883E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{27AA47FD-676E-41D6-9544-5E3DDBC9883E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{27AA47FD-676E-41D6-9544-5E3DDBC9883E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{80BBAC9A-7859-4021-96FF-744CCB796E90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80BBAC9A-7859-4021-96FF-744CCB796E90}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80BBAC9A-7859-4021-96FF-744CCB796E90}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80BBAC9A-7859-4021-96FF-744CCB796E90}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F6EF915-4C5A-42AB-A02F-33E12C37C7E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F6EF915-4C5A-42AB-A02F-33E12C37C7E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F6EF915-4C5A-42AB-A02F-33E12C37C7E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F6EF915-4C5A-42AB-A02F-33E12C37C7E9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

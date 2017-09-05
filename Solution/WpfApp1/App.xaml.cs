@@ -1,14 +1,14 @@
-﻿using System;
+﻿using NetStandard20;
+using System;
 using System.Collections.Generic;
 using System.Configuration;
 using System.Data;
+using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows;
-using NetStandard20;
-using System.Diagnostics;
 
-namespace WpfApplication1
+namespace WpfApp1
 {
     /// <summary>
     /// Interaction logic for App.xaml
@@ -18,9 +18,9 @@ namespace WpfApplication1
         public App()
         {
             Class1 c1 = new Class1();
+            var tup = c1.GetTuple();
 
-
-            Debug.WriteLine("");
+            Debug.WriteLine("" + tup.First);
         }
     }
 }
