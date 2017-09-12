@@ -20,6 +20,7 @@ namespace WpfApp1
             Class1 c1 = new Class1();
             var tup = c1.GetTuple();
             // VAmos . oo - kk - 1 - 2 - 3
+            // F2 => 1 - 2 - 3
             Debug.WriteLine("" + tup.First);
         }
     }
