@@ -235,3 +235,9 @@ _Pvt_Extensions
 # FAKE - F# Make
 .fake/
 *.orig
+
+
+
+# OSCAR
+**/.build/NuGet/**/*.dll
+**/.build/NuGet/**/*.deps.json

@@ -1,0 +1,21 @@
+﻿<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <version>0.0.0.1</version>
+    <authors>GitVersionNetStandard16</authors>
+    <owners>GitVersionNetStandard16</owners>
+    <id>GitVersionNetStandard16</id>
+    <title>GitVersionNetStandard16</title>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>GitVersionNetStandard16</description>
+    <summary>GitVersionNetStandard16</summary>
+    <copyright>GitVersionNetStandard16 2017</copyright>
+    <language>en-US</language>
+    <dependencies>
+      <group targetFramework=".NETFramework4.6.1" />
+      <group targetFramework=".NETStandard1.6">
+        <dependency id="NETStandard.Library" version="1.6.0" />
+      </group>
+    </dependencies>
+  </metadata>
+</package>
