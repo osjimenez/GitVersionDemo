@@ -4,13 +4,14 @@ $gitVersionExe = ".\GitVersion.exe"
 # Carpeta donde están los archivos .yml
 $folder = "."
 
-# Buscar todos los archivos YML en la carpeta
+# Buscar todos los archivos .yml en la carpeta
 $ymlFiles = Get-ChildItem -Path $folder -Filter "*.yml"
 
 foreach ($file in $ymlFiles) {
-    Write-Host "`n--- Ejecutando con config: $($file.Name) ---"
+    $nameWithoutExtension = [System.IO.Path]::GetFileNameWithoutExtension($file.Name)
+    
+    # Ejecutar GitVersion con ese archivo
+    $version = & $gitVersionExe /showvariable FullSemVer /config $file.FullName
 
-    $output = & $gitVersionExe /showvariable FullSemVer /config $file.FullName
-
-    Write-Host "Resultado: $output"
+    Write-Host "$nameWithoutExtension = $version"
 }
