@@ -71,16 +71,31 @@ branches:
     - hotfix
     is-source-branch-for: []
     pre-release-weight: 30000
-  develop:
-    increment: Patch
-    label: 'preview'
+  release:
+    mode: ContinuousDelivery
+    label: preview
+    increment: Inherit
     prevent-increment:
+      of-merged-branch: true
       when-current-commit-tagged: false
-    regex: ^develop$
+    track-merge-message: true
+    regex: ^(relesae)[\/-](?<BranchName>.+)
     source-branches:
     - main
+    - feature
+    - hotfix
     is-source-branch-for: []
-    pre-release-weight: 30000    
+    pre-release-weight: 30000
+  # develop:
+  #   increment: Patch
+  #   label: 'preview'
+  #   prevent-increment:
+  #     when-current-commit-tagged: false
+  #   regex: ^develop$
+  #   source-branches:
+  #   - main
+  #   is-source-branch-for: []
+  #   pre-release-weight: 30000    
   unknown:
     increment: Patch
     prevent-increment:
@@ -108,3 +123,9 @@ is-source-branch-for: []
 tracks-release-branches: false
 is-release-branch: false
 is-main-branch: false
+
+# The following is a list of ignored commits. These commits will not be included in the versioning process.
+# The SHA values are the commit hashes that will be ignored.
+#ignore:
+#  sha:
+#    - f59db8eee370f9140cf7eddef54bf664600fed3a
