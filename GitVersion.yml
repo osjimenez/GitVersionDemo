@@ -45,7 +45,7 @@ branches:
     pre-release-weight: 30000
   hotfix:
     mode: ContinuousDelivery
-    label: '{BranchName}'
+    label: 'hotfix-{BranchName}'
     increment: Patch
     prevent-increment:
       when-current-commit-tagged: false
@@ -58,7 +58,7 @@ branches:
     pre-release-weight: 30000
   pull-request:
     mode: ContinuousDelivery
-    label: pull-request-{Number}
+    label: pull-{Number}
     increment: Inherit
     prevent-increment:
       of-merged-branch: true
