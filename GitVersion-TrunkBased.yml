@@ -58,7 +58,7 @@ branches:
     pre-release-weight: 30000
   pull-request:
     mode: ContinuousDelivery
-    label: PullRequest{Number}
+    label: pull-{Number}
     increment: Inherit
     prevent-increment:
       of-merged-branch: true
