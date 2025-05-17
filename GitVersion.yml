@@ -32,7 +32,7 @@ branches:
     pre-release-weight: 55000
   feature:
     mode: ContinuousDelivery
-    label: '{BranchName}'
+    label: 'feature-{BranchName}'
     increment: Minor
     prevent-increment:
       when-current-commit-tagged: false
