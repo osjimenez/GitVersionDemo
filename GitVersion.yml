@@ -79,7 +79,7 @@ branches:
       of-merged-branch: true
       when-current-commit-tagged: false
     track-merge-message: true
-    regex: ^(relesae)[\/-](?<BranchName>.+)
+    regex: ^(release)[\/-](?<BranchName>.+)
     source-branches:
     - main
     - feature
