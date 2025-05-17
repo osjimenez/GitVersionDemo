@@ -58,7 +58,7 @@ branches:
     pre-release-weight: 30000
   pull-request:
     mode: ContinuousDelivery
-    label: pull-{Number}
+    label: PullRequest{Number}
     increment: Inherit
     prevent-increment:
       of-merged-branch: true
@@ -71,16 +71,6 @@ branches:
     - hotfix
     is-source-branch-for: []
     pre-release-weight: 30000
-  develop:
-    increment: Patch
-    label: 'preview'
-    prevent-increment:
-      when-current-commit-tagged: false
-    regex: ^develop$
-    source-branches:
-    - main
-    is-source-branch-for: []
-    pre-release-weight: 30000    
   unknown:
     increment: Patch
     prevent-increment:
